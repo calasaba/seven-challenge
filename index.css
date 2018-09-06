@@ -1,0 +1,145 @@
+/*
+* @Author: calasaba
+* @Date:   2018-09-06 09:22:56
+* @Last Modified by:   calasaba
+* @Last Modified time: 2018-09-06 09:28:17
+*/
+body{
+    background: #efefef;
+}
+header{
+    height: 4.619565rem;
+    /*height: 85px;*/
+    background: #29bde0;
+}  
+.home-header-btn{
+    /*padding-top: 27px;
+    padding-left: 22px;
+    padding-bottom: 19px;
+    width: 34px;*/
+    padding-top: 1.467391rem;
+    padding-left: 1.195652rem;
+    padding-bottom: 1.032609rem;
+    width: 1.847826rem;
+}
+.home-header-btn p{
+    height: 0.271739rem;
+    margin-bottom: 0.434783rem;
+    /*height: 5px;
+    margin-bottom: 8px;*/
+    background-color: #fff;
+   
+}
+main{
+    height: 100%;
+    overflow: hidden;
+    background-color: #efefef;
+}
+.home-top{
+    /*margin: 32px 35px 25px 35px;
+    line-height: 116px;
+    font-size: 36px;
+    height: 116px;*/
+    margin: 1.73913rem 1.902174rem 1.358696rem 1.902174rem;
+    line-height: 6.304348rem;
+    font-size: 1.956522rem;
+    height: 6.304348rem;
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+    text-align: center;
+    color: #9a9a9a;
+}
+.home-top-arrow{
+    height: 2.173913rem;
+    width: 1.304348rem;
+    margin-right: 0.76087rem;
+    margin-top: 2.065217rem;
+    /*height: 40px;
+    width: 24px;
+    margin-right: 14px;
+    margin-top: 38px;*/
+    display: block;
+    float: right;    
+}
+.home-down{
+    margin: 0 1.902174rem 3.26087rem 1.902174rem;
+    /*margin: 0 35px 60px 35px;*/
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    position: relative;
+}
+.home-down-header{
+    height: 4.891304rem;
+    line-height: 4.891304rem;
+    font-size: 2.065217rem;
+    margin-bottom: 1.630435rem;
+    /*height: 90px;
+    line-height: 90px;
+    font-size: 38px;
+    margin-bottom: 30px;*/
+    text-align: center;
+    color: #fbb435;
+    border-bottom: 1px solid #fbb435;
+    
+}
+.home-down-version,.home-down-number{
+    /*margin-left:54px;
+    margin-right: 50px;*/
+    margin-left:2.934783rem;
+    margin-right: 2.717391rem;
+    text-align: center;
+}
+.home-down-version{
+    font-size: 1.73913rem;
+    height: 7.282609rem;
+    line-height: 7.282609rem;
+    /*font-size: 32px;
+    height: 134px;
+    line-height: 134px;*/
+    color: #fff;
+    background-color: #69d1e9;  
+}
+.home-down-number{
+    font-size: 1.195652rem;
+    height: 4.23913rem;
+    line-height: 4.23913rem;
+    /*font-size: 22px;
+    height: 78px;
+    line-height: 78px;*/
+    color: #787878; 
+}
+.home-circle{
+    text-align: center;
+    margin:0.543478rem 0;
+    /*margin:10px 0;*/
+}
+.green-circle, .circle{
+    display: inline-block;
+    width: 0.978261rem;
+    height: 0.978261rem;
+    /*width: 18px;
+    height: 18px;*/
+    border-radius: 50%;
+    margin:0 5px;
+    margin:0 0.271739rem;
+}
+.green-circle{
+    background-color: #69d1e9;
+}
+.circle{
+    background-color: #f0f0f0;
+}
+.home-triangle{
+    width: 1.521739rem;
+    height: 3.043478rem;
+    /*width: 28px;
+    height: 56px;*/
+    background: url("./images/seven-home-triangle.png");
+    background-size: 28px 56px;
+    background-size: 1.521739rem 3.043478rem;
+    position: absolute;
+    /*top:378px;
+    right: 10px;*/ 
+    top:20.543478rem;
+    right: 0.543478rem; 
+}

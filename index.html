@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home-Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function hometz(){
+           window.location.href='vote.html';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="home-header-btn">
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </header>
+    <main>
+        <div class="home-top" onclick="hometz()">
+            <span>上次游戏：捉鬼猜词版</span>
+            <img src="./images/seven-home-arrow.png" alt="返回箭头" class="home-top-arrow">
+        </div>
+        <div class="home-down">
+            <p class="home-down-header">捉鬼游戏</p>
+            <div class="simplified-version">
+                <p onclick="hometz()" class="home-down-version">简化版</p>
+                <p class="home-down-number">有1133个用户正在玩此款游戏</p>
+            </div>
+            <div class="gussing-word-version">
+                <p class="home-down-version" onclick="hometz()">猜词版</p>
+                <p class="home-down-number">有1133个用户正在玩此款游戏</p>
+            </div>
+            <div class="idiot-version">
+                <p class="home-down-version" onclick="hometz()">白痴版</p>
+                <p class="home-down-number">有1133个用户正在玩此款游戏</p>
+            </div>
+            <div class="home-circle">
+                <span class="green-circle"></span>
+                <span class="one-circle circle"></span>
+                <span class="one-circle circle"></span>
+                <span class="one-circle circle"></span>
+            </div>
+            <div class="home-triangle"></div>
+        </div>   
+    </main>
+</body>
+</html>

@@ -1,0 +1,163 @@
+/*
+* @Author: calasaba
+* @Date:   2018-09-06 09:23:51
+* @Last Modified by:   calasaba
+* @Last Modified time: 2018-09-06 14:55:53
+*/
+.three-page-container{
+    position: relative;
+}
+.three-page-header{
+    /*height: 85px;
+    font-size: 34px;*/
+    height: 4.619565rem;
+    font-size: 1.847826rem;
+    background-color: #29bde0;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.left-img{
+    /*margin-left: 19px;*/
+    margin-left: 1.032609rem;
+}
+.left-img img{
+    /*width: 51px;
+    height: 42px;*/
+    width: 2.771739rem;
+    height: 2.282609rem;
+}
+.right-img{
+    /*margin-right: 19px;*/
+    margin-right: 1.032609rem;
+}
+.right-img img{
+    /*width: 40px;
+    height: 40px;*/
+    width: 2.173913rem;
+    height: 2.173913rem;
+}
+
+.three-page-main{
+    background-color: #29bde0;
+    border-bottom: 1px solid #dddddd;
+}
+.three-page-main div{
+    /*margin-right: 75px;
+    margin-left: 75px;*/
+    margin-right: 4.076087rem;
+    margin-left: 4.076087rem;
+
+}
+.main-page{
+    text-align: center;
+    /*padding-top: 23px;
+    padding-bottom: 23px;*/
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.main-page img{
+    /*width: 351px;
+    height: 205px;*/
+    width: 19.076087rem;
+    height: 11.141304rem;
+}
+.main-word{
+    /*font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 62px;
+    letter-spacing: 3px;*/
+    font-size: 1.793478rem;
+    line-height: 2.173913rem;
+    margin-bottom: 3.369565rem;
+    letter-spacing: 0.163043rem;
+    color: #ffc865;
+    text-align: justify;
+}
+.game-result{
+    /*font-size: 20px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    padding-bottom: 22px;*/
+    font-size: 1.086957rem;
+    line-height: 2.282609rem;
+    letter-spacing: 0.108696rem;
+    padding-bottom: 1.195652rem;
+    color:#fff; 
+}
+.game-day{
+    /*margin-bottom: 135px;*/
+    margin-bottom: 7.336957rem;
+}
+.game-day li{
+    border-bottom: 1px solid #ddd;
+    padding-left: 4.076087rem;
+    /*padding-left: 75px;*/
+}
+.game-day-time .order-day{
+    /*font-size: 26px;
+    line-height: 60px;*/
+    font-size: 1.413043rem;
+    line-height: 3.26087rem;
+    color: #515151; 
+}
+.game-night, .game-daytime{
+    /*font-size: 22px;
+    line-height: 34px;*/
+    font-size: 1.195652rem;
+    line-height: 1.847826rem;
+    color: #a6a6a6;
+}
+.game-daytime{
+    margin-bottom: 1.630435rem;
+    /*margin-bottom: 30px;*/
+}
+.game-hour{
+    /*font-size: 20px;
+    padding-left: 280px;*/
+    font-size: 1.086957rem;
+    padding-left: 12.217391rem;
+    display: inline-block;
+    color: #d5d5d5;
+}
+.three-page-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*height: 130px;*/
+    height: 7.065217rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #99dff0;
+    background-color: rgba(153,223,240,0.45);
+}
+.again, .share{
+    /*height: 86px;
+    font-size: 36px;
+    line-height: 86px;
+    width: 202px;*/
+    height: 4.673913rem;
+    font-size: 1.956522rem;
+    line-height: 4.673913rem;
+    width: 10.978261rem;
+    border-radius: 10%;
+    text-align: center;
+    color: #fff; 
+}
+.again{
+    margin-left: 1.358696rem;
+    /*margin-left: 25px;*/
+    background-color: #f66f6f;
+}
+.share{
+    margin-right: 1.358696rem;
+    /*margin-right: 25px;*/
+    background-color: #fbb435;
+}
